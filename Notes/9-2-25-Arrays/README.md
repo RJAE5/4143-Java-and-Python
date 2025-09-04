@@ -110,3 +110,50 @@ Arrays have the following disadvantages:
 * All elements must be of the same type
 * The array size is fixed and can never be changed
 * Insertion/deletions *into ordered* arrays is very slow
+
+
+#### Appendix 
+Below is something Dr. Johnson typed up at the beginning of class the next day to showcase alias creation
+```java
+import java.util.Arrays;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int[] a1 = new int[5];
+        int[] a2 = new int[5];
+        int[] a3 = new int[5];
+
+        // Fill a1
+        for(int i = 0; i < 5; i++)
+        {
+            a1[i] = i;
+        }
+
+        // Print a1
+        for(int i = 0; i < 5; i++)
+            System.out.print(a1[i] + " ");
+
+        System.out.println("\n");
+
+        // Make a2 an alias of a1
+        a2 = a1;
+        a2[3] = 465;
+
+        // Make a3 an actual separate copy of a1
+        a3 = Arrays.copyOf(a1, a1.length);
+        a3[3] = 0;
+
+        // Print out a1 to show that a change in a2 affects a1 since it is an alias
+        for(int i = 0; i < 5; i++)
+            System.out.print(a1[i] + " ");
+
+        System.out.println("\n");
+
+        // Print out a3 to show that an actual copy is a different array
+        for(int i = 0; i < 5; i++)
+            System.out.print(a1[i] + " ");
+    }// End main
+}// End Main
+```
