@@ -31,18 +31,62 @@ public class fraction
         public void setDen(int d)
         {this.den = d;}
 
+        public int getNum()
+        {return this.num;}
+
+        public int getDen()
+        {return this.den;}
+
         public float getDecVal()
+        {return this.num / this.den;}
+
+        public Frac multiply(Frac f1)
         {
-            float fn = this.num;
-            float fd = this.den;
-            return fn / fd;
+            return new Frac(this.num * f1.num, this.den * f1.den);
         }
+
+        public Frac add(Frac f1)
+        {
+            Frac temp = new Frac();
+            temp.den = this.den * f1.den;
+            temp.num = this.num * f1.den + f1.num * this.den;
+            return temp;
+            
+        }
+
+        public Frac divide(Frac f1)
+        {
+            Frac temp = new Frac();
+            temp.num = this.num * f1.den;
+            temp.den = this.den * f1.num;
+            return temp;
+        }
+
+        public void printFrac()
+        {
+            System.out.print(this.num);
+            System.out.print("/");
+            System.out.print(this.den);
+            System.out.println();
+        }
+
+        
 
     }
 
     public static void main(String[] args)
     {
-        Frac f1 = new Frac(1532, 1263);
-        System.out.println(f1.getDecVal());
+        Frac f1 = new Frac(4, 2);
+        Frac f2 = new Frac(2, 3);
+        Frac f3 = f2.multiply(f1);
+        Frac f4 = f1.add(f2);
+        Frac f5 = f1.divide(f2);
+
+        f1.printFrac();
+        f2.printFrac();
+        f3.printFrac();
+        f4.printFrac();
+        f5.printFrac();
+        
     }
 }
