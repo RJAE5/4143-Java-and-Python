@@ -24,6 +24,13 @@ public class fraction
             this.den = d;
         }
 
+        // Copy Constructor
+        public Frac(Frac f1)
+        {
+            this.num = f1.num;
+            this.den = f1.den;
+        }
+
         // Setter
         public void setNum(int n)
         {this.num = n;}
