@@ -1,6 +1,6 @@
 ### AI Disclaimer
 
-At MSU Texas, use of AI is (currently) at the discretion of the professor, and I will adhere to the rules laid out for each class in their respective syllabus. First and foremost, the syllabus for this course [(CMPS 4143 - Contemporary Programming Languages Fall 2025)](./course_syllabus.pdf) does not generally deny the usage of AI so long as proper credit is given and the are instructions that allow it per assignment.
+At MSU Texas, use of AI is (currently) at the discretion of the professor, and I will adhere to the rules laid out for each class in their respective syllabus. First and foremost, the syllabus for this course [(CMPS 4143 - Contemporary Programming Languages Fall 2025)](./course_syllabus.pdf) does not generally deny the usage of AI so long as proper credit is given and there are instructions that allow it per assignment.
 
 My usage of AI in this course is limited and follows the laid out rules for each assignment. "Usage" includes occasionally asked for explanations or quick reviewal processes. When allowed, only minimal (if any) sections of code in programs made for this course have been adapted from an AI-generated version, and these segments are clearly marked with comments, crediting those blocks to the respective LLM.
 
