@@ -6,6 +6,8 @@ My usage of AI in this course is limited and follows the laid out rules for each
 
 **My personal view on AI** (fully aware that I am a university student at the time of writing) is that it should be utilized as a tool to boost personal efficiency, typically in the form of discovering errors quickly, summarizing large walls of text, and other orgnizational tasks. Additionally, I see that AI tools are a great standardized learning resource for surface-level information. I believe the issue is when we use AI to accomplish things we do not know how to do ourselves. This leads to not "exercising" our brain and ultimately weakening it. I see that becoming dependent on AI to do mentally-taxing tasks is a slippery slope, and one I do not intend to fall down in my career.
 
+The purpose of this disclaimer is to enhance my personal standards on properly crediting the use of AI, as it is undeniably a part of my future career, whether it helps or hurts me.
+
 ### Table
 Below is a table summarizing each Assignment within this folder. The order is based on the type of assignment (alphabetically), there is no chronological distinction.
 
