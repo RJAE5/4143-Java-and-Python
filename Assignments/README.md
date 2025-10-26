@@ -13,5 +13,6 @@ Below is a table summarizing each Assignment within this folder. The order is ba
 
 |  #  | Folder        | Description                              |
 | --- | ------------- | ---------------------------------------  |
-| A01 | [A01](./A01/) | Quadratic Root Calculation using formula |
-| P01 | [P01](./P01/) | In Progress                              |
+| P01 | [P01](./P01/) | Quadratic Root Calculation using formula |
+| P02 | [P02](./P02/) | Project Hangman Game                     |
+| P03 | [P03](./P03/) | Pet Daycare Database                     |
