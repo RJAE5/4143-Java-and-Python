@@ -73,16 +73,20 @@ brightImage.save("SD25_Botanical1_Bright.JPG")
 ## Contrast Manipulation ##
 ###########################
 img = Image.open("SD25_Botanical2.JPG")
-img = ImageOps.exif_transpose(img) # Needed because original stored image was externally rotated
+
+# Needed because original stored image was externally rotated
+# EXIF = Exchangeable Image File Format
+# Pillow doesn't automatically read, this command sets it right
+img = ImageOps.exif_transpose(img) 
 
 con_enhancer = ImageEnhance.Contrast(img)
 
 # Increase contrast (1.0 = original)
-higher_contrast = con_enhancer.enhance(1.2)   # 20% more contrast
+higher_contrast = con_enhancer.enhance(1.4)   # 20% more contrast
 higher_contrast.save("SD25_Botanical2_HighCon.JPG")
 
 # Decrease contrast
-lower_contrast = con_enhancer.enhance(0.8)    # 20% less contrast
+lower_contrast = con_enhancer.enhance(0.7)    # 20% less contrast
 lower_contrast.save("SD25_Botanical2_LowCon.JPG")
 
 
