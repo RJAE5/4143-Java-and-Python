@@ -2,8 +2,6 @@
 ### Rykir Evans
 ### Description:
 
-
-
 The program ends after one iteration and must be executed again to perform another root calculation.
 
 ### Usage
